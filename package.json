@@ -8,13 +8,15 @@
 		]
 	},
 	"dependencies": {
-		"react": "^16.4.0",
-		"react-dom": "^16.8.6",
-		"react-scripts": "3.0.1",
-		"@ant-design/icons": "^5.1.4",
+		"@code_district/doorman": "^1.1.21",
 		"@reduxjs/toolkit": "^1.9.5",
-		"axios": "^1.4.0",
+		"js-cookie": "^3.0.5",
 		"antd": "^5.7.0",
+		"axios": "^1.5.0",
+		"react-scripts": "3.0.1",
+		"web-vitals": "^3.0.4",
+		"react": ">=16.9.0",
+		"react-dom": ">=16.9.0",
 		"amazon-cognito-identity-js": "^6.3.5"
 	},
 	"scripts": {
@@ -22,10 +24,7 @@
 		"build": "react-scripts build",
 		"test": "react-scripts test",
 		"eject": "react-scripts eject",
-		"publish:npm": "rm -rf dist && mkdir dist &&  babel      ./src/components -d dist --copy-files"
-	},
-	"eslintConfig": {
-		"extends": "react-app"
+		"publish:npm": "rm -rf dist && mkdir dist &&  babel ./src/components -d dist --copy-files"
 	},
 	"browserslist": {
 		"production": [
